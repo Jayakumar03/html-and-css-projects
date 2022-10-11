@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Roboto+Slab&display=swap');
+
+body{
+    background-color:rgb(187, 163, 167);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+     font-family: 'Roboto Slab', serif;
+}
+
+#outer-box{
+    width: 25%;
+    height:25%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px 20px;
+    margin:0 auto;
+    position: sticky;
+    border-radius: 20px;
+}
+
+
+#inner-box{
+    width: 95%;
+    height:60%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#inner-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#inner-box:hover.overlay{
+    color: aqua;
+
+}
+
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: red;
+  }
+
+.description{
+display: block;
+padding: 5px;
+margin: 0px 10px;
+}
+
+#heading{
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+
+}
+#heading:hover{
+    color: hsl(178, 100%, 50%);
+    
+}
+#paragraph{
+    color: hsl(215, 51%, 70%);
+    /* word-spacing: 0.25em; */
+    font-size: 1.1em;
+}
+
+#eth-days{
+    display: flex;
+    padding: 5px;
+    margin-top: -30px;
+    justify-content: space-between;
+}
+
+.smaller-headings{
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.smaller-headings1{
+    color:hsl(215, 51%, 70%);
+}
+
+.icon{
+    margin-right: 8px;
+    
+}
+
+#footer{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+#footer-img{
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+}
+.footer-text{
+    margin-left: -100px;
+}
+strong:hover{
+    color: aqua;
+}

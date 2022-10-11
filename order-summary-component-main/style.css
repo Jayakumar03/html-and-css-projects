@@ -1,0 +1,86 @@
+body{
+    background:url(./images/pattern-background-desktop.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#outer-box{
+    width: 25%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#secondary-layout{
+    background-color:whitesmoke !important;
+    margin-top: -25px;
+}
+
+header{
+    text-align: center;
+    padding: 10px 20px;
+    padding-top: 30px;
+}
+
+#heading{
+    color: hsl(245, 75%, 52%) ;
+}
+
+#p-header{
+    color: hsl(224, 23%, 55%);
+}
+
+#section{
+    display: flex;
+    flex-direction: row;
+    background-color:  hsl(228, 57%, 45%);
+    width: 80%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 10%;
+
+}
+
+.btn-1{
+    color: hsl(245, 69%, 54%) ;
+    background-color: aliceblue;
+    width: 80%;
+    font-size: 1em;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 25px;
+    border: 0.1px solid hsl(228, 57%, 45%) ;
+    padding: 10px 20px;
+}
+
+.btn-2{
+    color: hsl(245, 69%, 54%) ;
+    background-color: aliceblue;
+    width: 80%;
+    font-size: 1em;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 25px;
+    border: 0.1px solid  hsl(228, 57%, 45%);
+    padding: 10px 20px;
+}
+
+.btn-1 .btn-2:hover{
+    background-color: black;
+} 
